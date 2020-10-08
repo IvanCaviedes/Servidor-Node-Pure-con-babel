@@ -1,5 +1,18 @@
 {
     "address": "127.0.0.1",
     "port": 3000,
-    "basePath": "/api"
+    "basePath": "/api",
+    "modulesDir": "./../modules",
+    "modules": [
+
+        "index"
+    ],
+    "defaults": {
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "Content-Type": "application/json"
+            }
+        }
+    }
 }
